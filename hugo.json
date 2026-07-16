@@ -1,17 +1,21 @@
 {
-  "baseURL": "https://example.org/",
-  "title": "Project Documentation",
+  "baseURL": "https://gomatic.github.io/docs.go-flagged/",
+  "title": "go-flagged Documentation",
   "publishDir": "_site",
   "enableRobotsTXT": true,
   "markup": {
     "goldmark": {
       "renderHooks": {
-        "link": { "useEmbedded": "fallback" },
-        "image": { "useEmbedded": "fallback" }
+        "link": {
+          "useEmbedded": "fallback"
+        },
+        "image": {
+          "useEmbedded": "fallback"
+        }
       }
     }
   },
   "params": {
-    "description": "Public documentation for the project."
+    "description": "Reflection-driven flag binding for Go: Bind registers a struct\u2019s fields on a flag.FlagSet with derived names and typed defaults."
   }
 }
